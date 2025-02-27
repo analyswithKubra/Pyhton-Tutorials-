@@ -4,7 +4,7 @@ Welcome to my Python tutorials repository! This is a collection of structured le
 
 ## 📌 What's Inside?
 
-- 📖 **Lesson 1:** Introduction to Python  
+- 📖 **Lesson 1:** Basic Variables 
 - 📖 **Lesson 2:** Variables and Data Types  
 - 📖 **Lesson 3:** Control Flow (If-Else Statements)  
 - 📖 **Lesson 4:** Loops (For & While)  
