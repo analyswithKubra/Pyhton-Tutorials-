@@ -1,0 +1,86 @@
+VARIABLES IN PYHTON 
+A variable in Python is a container for storing data. It acts as a reference or name that points to a value stored in memory. Variables allow you to store, modify
+,and use data throughout your program.
+
+1.DECLARING VARIABLES 
+In Python, you don’t need to specify the data type of a variable explicitly. The type is determined automatically when you assign a value.
+
+Example:
+x = 10         # Integer
+y = 3.14       # Float
+name = "Alice" # String
+is_active = True # Boolean
+
+
+ 2.VARIABLE NAMING RULES 
+
+-Must start with a letter (a-z, A-Z) or an underscore _
+-Cannot start with a number
+-Can contain letters, numbers, and underscores (e.g., var_1, _my_var)
+-Case-sensitive (name and Name are different variables)
+-Cannot be a reserved keyword (if, while, class, etc.)
+
+Valid Examples:
+
+my_variable = 5
+_variable = "Hello"
+user1 = "John"
+
+Invalid Examples:
+
+1variable = "Error"  # Starts with a number
+my-variable = 10     # Hyphens are not allowed
+if = "Hello"         # 'if' is a reserved keyword
+
+
+3.ASSIGNING MULTIPLE VARIABLES 
+
+You can assign multiple values to multiple variables in a single line.
+a, b, c = 1, 2, 3
+print(a, b, c)  # Output: 1 2 3
+Or assign the same value to multiple variables:
+
+Example
+x = y = z = 100
+print(x, y, z)  # Output: 100 100 100
+
+4.CHECKING VARIABLE TYPE 
+You can check the type of a variable using the type() function.
+
+Example
+x = 42
+print(type(x))  # Output: <class 'int'>
+
+y = 3.14
+print(type(y))  # Output: <class 'float'>
+
+name = "Alice"
+print(type(name))  # Output: <class 'str'>
+
+
+5.CHANGING VARIABLE TYPE
+You can convert one data type into another using type conversion functions.
+
+Example 
+x = 10
+y = str(x)  # Converts integer to string
+print(y, type(y))  # Output: '10' <class 'str'>
+
+z = float(x)  # Converts integer to float
+print(z, type(z))  # Output: 10.0 <class 'float'>
+
+6.DELETING VARIABLE 
+You can delete a variable using del.
+
+Example 
+x = 5
+del x
+# print(x)  # This will raise an error because x no longer exists.
+
+
+SUMMARY 
+Use meaningful names (avoid x, y, a, b unless necessary).
+Follow snake_case convention for variable names (my_variable, user_age).
+Keep variable scope in mind (local vs. global variables).
+Avoid unnecessary reassignment (e.g., x = 10 then x = "hello" in the same block).
+Use constants (ALL_CAPS) for fixed values.
