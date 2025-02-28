@@ -1,0 +1,112 @@
+1.Arithmetic Operators🧮
+These operators perform basic mathematical operations.
+
+
+# Addition
+x = 5 + 3  
+print(x)  # Output: 8
+
+# Subtraction
+x = 5 - 3  
+print(x)  # Output: 2
+
+# Multiplication
+x = 5 * 3  
+print(x)  # Output: 15
+
+# Division (returns a float)
+x = 5 / 2  
+print(x)  # Output: 2.5
+
+# Floor Division (divides and rounds down)
+x = 5 // 2  
+print(x)  # Output: 2
+
+# Modulus (returns the remainder)
+x = 5 % 2  
+print(x)  # Output: 1
+
+# Exponentiation (power)
+x = 5 ** 2  
+print(x)  # Output: 25
+
+
+
+2. Comparison Operators 🔍
+These operators compare values and return True or False.
+
+
+# Addition
+x = 5 + 3  
+print(x)  # Output: 8
+
+# Subtraction
+x = 5 - 3  
+print(x)  # Output: 2
+
+# Multiplication
+x = 5 * 3  
+print(x)  # Output: 15
+
+# Division (returns a float)
+x = 5 / 2  
+print(x)  # Output: 2.5
+
+# Floor Division (divides and rounds down)
+x = 5 // 2  
+print(x)  # Output: 2
+
+# Modulus (returns the remainder)
+x = 5 % 2  
+print(x)  # Output: 1
+
+# Exponentiation (power)
+x = 5 ** 2  
+print(x)  # Output: 25
+
+
+
+
+
+3. Assignment Operators 🎯
+These operators assign values and update variables.
+
+# Assign value
+x = 5  
+print(x)  # Output: 5
+
+# Add and assign
+x = 5  
+x += 3  # Same as x = x + 3
+print(x)  # Output: 8
+
+# Subtract and assign
+x = 5  
+x -= 3  # Same as x = x - 3
+print(x)  # Output: 2
+
+# Multiply and assign
+x = 5  
+x *= 3  # Same as x = x * 3
+print(x)  # Output: 15
+
+# Divide and assign
+x = 5  
+x /= 2  # Same as x = x / 2
+print(x)  # Output: 2.5
+
+# Floor divide and assign
+x = 5  
+x //= 2  # Same as x = x // 2
+print(x)  # Output: 2
+
+# Modulus and assign
+x = 5  
+x %= 2  # Same as x = x % 2
+print(x)  # Output: 1
+
+# Exponentiate and assign
+x = 5  
+x **= 2  # Same as x = x ** 2
+print(x)  # Output: 25
+
