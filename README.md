@@ -6,7 +6,7 @@ Welcome to my Python tutorials repository! This is a collection of structured le
 
 - 📖 **Lesson 1:** Basic Variables 
 - 📖 **Lesson 2:** Pyhton Terms 
-- 📖 **Lesson 3:** Data Types
+- 📖 **Lesson 3:** Data Types:String
 - 📖 **Lesson 4:** Loops (For & While)  
 - 📖 **Lesson 5:** Functions and Modules  
 - 🔜 *(More lessons coming soon!)*  
