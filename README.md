@@ -8,8 +8,12 @@ Welcome to my Python tutorials repository! This is a collection of structured le
 - 📖 **Lesson 2:** Python Terms 
 - 📖 **Lesson 3:** Data Types:String
 - 📖 **Lesson 4:** Python Operators  
-- 📖 **Lesson 5:** 
-- 🔜 *(More lessons coming soon!)*  
+- 📖 **Lesson 5:** Python Conditional Statements 
+- 📖 **Lesson 6:**  
+- 📖 **Lesson 7:** 
+- 📖 **Lesson 8:** 
+- 📖 **Lesson 9:**  
+- 📖 **Lesson 10:** 
 
 ## 🚀 How to Use This Repository
 
