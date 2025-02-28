@@ -1,0 +1,73 @@
+
+📌 Data Structures in Python
+
+What is a Data Structure?
+A data structure is a way of organizing and storing data so it can be accessed and used efficiently.
+
+Types of Data Structures in Python:
+Python has built-in data structures, and they fall into 4 categories:
+
+
+ 1️⃣ LIST [] →A List is an ordered collection of elements that can be modified. 
+
+
+✔ Features:
+   - Ordered (maintains the insertion order)
+   - Mutable (can be changed after creation)
+   - Allows duplicate values
+   - Supports indexing and slicing
+
+✔ Example:
+
+fruits = ["apple", "banana", "cherry", "banana"]  # Duplicates allowed
+fruits.append("orange")  # ✅ Adding an element
+fruits[1] = "grape"  # ✅ Modifying an element
+print("List Example:", fruits)  
+# Output: ['apple', 'grape', 'cherry', 'banana', 'orange']
+
+
+# 2️⃣ TUPLE () → A Tuple is similar to a List but is immutable (cannot be changed after creation). 
+
+✔ Features:
+   - Ordered (maintains the insertion order)
+   - Immutable (cannot be changed after creation)
+   - Allows duplicate values
+   - Supports indexing and slicing
+
+✔ Example:
+
+coordinates = (10.5, 20.3, 30.7, 10.5)  # Duplicates allowed
+# coordinates[1] = 50  # ❌ ERROR: 'tuple' object does not support item assignment
+print("Tuple Example:", coordinates)  
+# Output: (10.5, 20.3, 30.7, 10.5)
+
+
+# 3️⃣ SET {} → A Set is an unordered collection of unique elements. 
+   It does not allow duplicate values and does not support indexing.
+
+✔ Features:
+   - Unordered (no fixed order)
+   - Mutable (can add/remove elements but cannot modify directly)
+   - Does not allow duplicate values
+   - Does not support indexing
+
+✔ Example:
+colors = {"red", "blue", "green", "blue"}  # Duplicates removed automatically
+colors.add("yellow")  # ✅ Adding an element
+colors.remove("red")  # ✅ Removing an element
+# colors[1]  # ❌ ERROR: 'set' object does not support indexing
+print("Set Example:", colors)  
+# Output: {'green', 'blue', 'yellow'} (order may vary)
+
+
+# 4️⃣ DICTIONARY {} → A Dictionary stores data in key-value pairs. 
+   It allows fast lookups and modifications using keys.
+
+✔ Features:
+   - Unordered (insertion order is maintained in Python 3.7+)
+   - Mutable (values can be changed)
+   - Keys must be unique, values can be duplicated
+   - Supports key-based indexing
+
+✔ Example:
+capitals = {"USA": "Washington D.C.", "France": "Paris", "Japan": "Tokyo"}
