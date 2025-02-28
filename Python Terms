@@ -1,0 +1,68 @@
+1️⃣ Object
+📌 An object is an instance of a class that holds data and behavior.
+
+✔ Example:
+my_car = Car("Toyota", "Camry", 2020, 25000)  # my_car is an object
+
+
+2️⃣ Variable
+📌 A variable stores a reference to an object or value.
+
+✔ Example:
+price = 1200  # price is a variable storing a number
+car_model = "Sedan"  # car_model is a variable storing a string
+
+
+3️⃣ Function
+📌 A reusable block of code that performs a task.
+
+✔ Example:
+def calculate_total(price, quantity):
+    return price * quantity
+
+total = calculate_total(100, 5)  # Calls the function
+print(total)  # Output: 500
+
+
+4️⃣ Class
+📌 A blueprint for creating objects (like a template).
+
+✔ Example:
+class Car:
+    def __init__(self, brand, model):
+        self.brand = brand
+        self.model = model
+
+
+5️⃣ Attribute
+📌 A variable stored inside an object (belongs to the object).
+
+✔ Example:
+my_car = Car("Toyota", "Camry")
+print(my_car.brand)  # Output: Toyota
+
+
+
+6️⃣ Method
+📌 A function inside a class that belongs to an object.
+
+✔ Example:
+class Car:
+    def __init__(self, brand):
+        self.brand = brand
+
+    def show_brand(self):  # Method
+        print("Car Brand:", self.brand)
+
+my_car = Car("Honda")
+my_car.show_brand()  # Output: Car Brand: Honda
+
+
+
+🚀 Final Takeaway
+✔ Objects are instances of classes.
+✔ Variables store data.
+✔ Functions perform tasks.
+✔ Classes create objects.
+✔ Attributes store object data.
+✔ Methods allow objects to perform actions.
