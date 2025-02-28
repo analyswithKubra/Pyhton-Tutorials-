@@ -1,0 +1,87 @@
+Control Flow Statements (Conditional Statements Only) 🚦
+Control flow statements decide which parts of the code should execute based on conditions. In Python, conditional statements allow the program to make decisions.
+
+1. Conditional Statements (if, elif, else)
+These statements let Python choose different actions based on conditions.
+
+How It Works:
+if → Checks a condition and runs the code if it's True.
+elif (else if) → Runs when the previous if condition is False but another condition is True.
+else → Runs if none of the conditions are True.
+2. Examples of Conditional Statements
+Basic if Statement
+👉 If a condition is True, the code inside runs.
+
+python
+Copy
+Edit
+age = 20
+
+if age >= 18:
+    print("You can vote!")  
+💡 If age = 20, the condition age >= 18 is True, so "You can vote!" prints.
+💡 If age = 16, the condition is False, so nothing happens.
+
+if and else Statement
+👉 Use else to run code when the if condition is False.
+
+python
+Copy
+Edit
+age = 16
+
+if age >= 18:
+    print("You can vote!")
+else:
+    print("You are too young to vote.")  
+💡 If age = 16, the if is False, so the else part runs.
+
+if, elif, and else Statement
+👉 Use elif when you have multiple conditions.
+
+python
+Copy
+Edit
+temperature = 30
+
+if temperature > 35:
+    print("It's too hot! Stay inside.")
+elif temperature > 20:
+    print("Nice weather! Enjoy your day.")
+else:
+    print("It's cold! Wear a jacket.")  
+🔹 If temperature = 40, it prints "It's too hot!"
+🔹 If temperature = 30, it prints "Nice weather!"
+🔹 If temperature = 10, it prints "It's cold!"
+
+3. Nested if Statements
+👉 You can put an if inside another if for more complex logic.
+
+python
+Copy
+Edit
+age = 25
+has_ID = True
+
+if age >= 18:
+    if has_ID:
+        print("You can enter the club!")
+    else:
+        print("You need an ID to enter.")
+else:
+    print("You are too young to enter.")  
+🔹 If age = 25 and has_ID = True, it prints "You can enter the club!"
+🔹 If has_ID = False, it prints "You need an ID to enter."
+🔹 If age < 18, it prints "You are too young to enter."
+
+Why Use Conditional Statements?
+✅ They help programs make decisions instead of running all code at once.
+✅ They allow different actions based on conditions.
+✅ They are used in real-world logic, like form validation, login systems, and automation.
+
+Summary
+if → Runs only if the condition is True.
+else → Runs when if is False.
+elif → Checks another condition if if is False.
+Nested if → An if inside another if for complex logic.
+Conditional statements control the flow of a program, making it smarter and dynamic! 🚀
