@@ -9,7 +9,7 @@ Welcome to my Python tutorials repository! This is a collection of structured le
 - 📖 **Lesson 3:** Data Types:String
 - 📖 **Lesson 4:** Python Operators  
 - 📖 **Lesson 5:** Python Conditional Statements 
-- 📖 **Lesson 6:**  
+- 📖 **Lesson 6:** Data Structures 
 - 📖 **Lesson 7:** 
 - 📖 **Lesson 8:** 
 - 📖 **Lesson 9:**  
