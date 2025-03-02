@@ -1,0 +1,58 @@
+📌 What Are Functions in Python? 🚀
+A function is a reusable block of code that performs a specific task.
+
+Instead of writing the same code multiple times, we define a function once and use it whenever needed.
+
+📌 Why Do We Need Functions?
+✔ Avoid Repetition → Write code once, use it multiple times.
+✔ Keep Code Organized → Easier to read and maintain.
+✔ Make Programs More Efficient → Code runs faster and is easier to debug.
+✔ Make Complex Tasks Simpler → Break large problems into smaller steps.
+
+📌 5 Common Python Functions With Examples
+1️⃣ print() → Displaying Output
+2️⃣ len() → Counting Length
+3️⃣ sum() → Adding Numbers
+4️⃣ max() → Finding the Largest Value
+5️⃣ type() → Checking Data Type
+
+
+📌 What is a Defined Function? (Using def)
+In Python, we can create our own functions using def.
+
+💡 Think of it like a recipe:
+
+Define the function (def) → Write the steps once.
+Call the function whenever you need it.
+
+📌 Why Do We Need Defined Functions?
+✔ To Create Reusable Code → Functions can be used anywhere in a program.
+✔ To Perform Complex Tasks in a Simple Way → Functions break big problems into small steps.
+✔ To Make Code More Readable → Instead of writing long code, we just call a function.
+
+📌 Scenario: The Pizza Order System 🍕
+Imagine you run a pizza shop. Customers order different types of pizzas, and instead of writing the same order-taking code every time, you define a function.
+
+📌 Example: Defining a Function for Pizza Orders
+
+def order_pizza(size, topping):
+    return f"You ordered a {size} pizza with {topping}."
+
+# Calling the function with different orders
+print(order_pizza("large", "pepperoni"))
+print(order_pizza("medium", "mushrooms"))
+print(order_pizza("small", "cheese"))
+
+✅ Output:
+You ordered a large pizza with pepperoni.
+You ordered a medium pizza with mushrooms.
+You ordered a small pizza with cheese.
+
+
+📌 Summary
+✔ Functions save time by avoiding repeated code.
+✔ They make programs more organized.
+✔ Using def lets us create our own functions for any task.
+
+
+
