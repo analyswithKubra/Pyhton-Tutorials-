@@ -12,7 +12,7 @@ Welcome to my Python tutorials repository! This is a collection of structured le
 - 📖 **Lesson 6:** Data Structures 
 - 📖 **Lesson 7:** Loops 
 - 📖 **Lesson 8:** Functions 
-- 📖 **Lesson 9:**  
+- 📖 **Lesson 9:** Modules   
 - 📖 **Lesson 10:** 
 
 ## 🚀 How to Use This Repository
