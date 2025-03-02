@@ -1,0 +1,33 @@
+Understanding Loops in Python 🚀
+Loops in Python allow us to repeat actions multiple times without writing the same code over and over again.
+
+There are two main types of loops in Python:
+
+For Loop → Used when you know how many times you need to repeat something.
+While Loop → Used when you don’t know how many times but repeat until a condition is met.
+
+
+1️⃣ For Loop Explanation
+A for loop repeats a task for each item in a group (like a list, range, or string).
+
+💡 Think of it like this:
+👉 "For every toy in the toy box, play with it!"
+
+Example 
+for number in range(1, 6):  # Start at 1, stop at 6 (6 is not included)
+    print("Number:", number)
+
+
+
+2️⃣ While Loop Explanation
+A while loop repeats a task as long as a condition is True.
+
+💡 Think of it like this:
+👉 "Keep playing with the toy until mom says stop!"
+
+Example 
+number = 5  # Start at 5
+
+while number >= 1:  # Repeat while number is 1 or more
+    print("Number:", number)
+    number -= 1  # Decrease number by 1
